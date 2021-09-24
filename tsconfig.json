@@ -1,0 +1,7 @@
+{
+    "compilerOptions": {
+        "experimentalDecorators": true,
+        "jsx": "react-jsx",
+        "types": ["@pyoner/svelte-types"]
+    }
+}

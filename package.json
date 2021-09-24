@@ -1,0 +1,35 @@
+{
+  "name": "web-components",
+  "version": "1.0.0",
+  "description": "Web Components Library",
+  "devDependencies": {
+    "@pyoner/svelte-types": "^3.4.4-2",
+    "@rollup/plugin-node-resolve": "^13.0.5",
+    "@rollup/plugin-typescript": "^8.2.5",
+    "@stencil/core": "^2.8.1",
+    "@types/react": "^17.0.24",
+    "lit": "^2.0.0",
+    "live-server": "^1.2.1",
+    "react": "^17.0.2",
+    "rollup": "^2.57.0",
+    "rollup-plugin-svelte": "^7.1.0",
+    "svelte": "^3.43.0",
+    "tslib": "^2.3.1",
+    "typescript": "^4.4.3"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "sh=./scripts/build.sh; chmod +x $sh && $sh ./src ./dist",
+    "serve": "sh=./scripts/server.sh; chmod +x $sh && $sh 1234 ./dist"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/skiv71/web-components.git"
+  },
+  "author": "Neil Duffy",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/skiv71/web-components/issues"
+  },
+  "homepage": "https://github.com/skiv71/web-components#readme"
+}
