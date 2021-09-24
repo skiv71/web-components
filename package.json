@@ -20,7 +20,7 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "build": "sh=./scripts/build.sh; chmod +x $sh && $sh ./src ./dist",
-    "serve": "sh=./scripts/serve.sh; chmod +x $sh && $sh 1234 ./dist"
+    "serve": "sh=./scripts/serve.sh; chmod +x $sh && $sh 1234 ./dist,./index.html"
   },
   "repository": {
     "type": "git",

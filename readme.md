@@ -41,3 +41,8 @@ Notes
 
 Stencil appears to have an issue where its core library doesn't properly export the required classes.
 Have created an issue, but hard to tell if its Stencil, or its reliance on react/jsx, which appears to be a pile of... :)
+
+I've shown 2 svelte implementations (a & b): -
+
+svelte-input-a - leverages some cool native reactivity (computed) properties via the '$:' syntax
+svelte-input-b - uses a standard js object with a getter 
